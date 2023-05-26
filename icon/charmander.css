@@ -1,0 +1,152 @@
+@charset "UTF-8";
+*, *:before, *:after {
+    box-sizing: border-box; }
+
+html, body {
+    min-height: 100%; }
+
+::selection {
+    background: none; }
+
+body {
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    overflow-x: hidden; }
+
+main {
+    display: none; }
+
+.pokemon {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.pokemon > div {
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: calc(100vw / 10);
+    height: calc(100vw / 10);
+    overflow: hidden;
+    background: #f1f1f1;
+}
+
+.pokemon > div:before, .pokemon > div:after, .pokemon > div div:before, .pokemon > div div:after {
+    content: "";
+    display: block; }
+
+#charmander {
+    background: #efaf84; }
+#charmander:before, #charmander:after {
+    width: 3.13%;
+    height: 6.25%;
+    background: #d39873; }
+#charmander:before {
+    left: 42.97%; }
+#charmander:after {
+    right: 42.97%; }
+#charmander:before, #charmander:after {
+    position: absolute;
+    top: 55.08%; }
+#charmander > div:nth-child(1) {
+    position: absolute;
+    top: 12.89%;
+    width: 21.88%;
+    height: 33.2%;
+    background: #1e2c31;
+    padding: 7.42% 6.25% 5.47%; }
+#charmander > div:nth-child(1) div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #182226; }
+#charmander > div:nth-child(1):before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 27.06%;
+    background: #396d7e; }
+#charmander > div:nth-child(1):after {
+    position: absolute;
+    top: 4.71%;
+    width: 37.5%;
+    height: 37.65%;
+    background: white; }
+#charmander > div:nth-child(2) {
+    position: absolute;
+    top: 12.89%;
+    width: 21.88%;
+    height: 33.2%;
+    background: #1e2c31;
+    padding: 7.42% 6.25% 5.47%; }
+#charmander > div:nth-child(2) div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #182226; }
+#charmander > div:nth-child(2):before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 27.06%;
+    background: #396d7e; }
+#charmander > div:nth-child(2):after {
+    position: absolute;
+    top: 4.71%;
+    width: 37.5%;
+    height: 37.65%;
+    background: white; }
+#charmander > div:nth-child(1) {
+    left: 9%; }
+#charmander > div:nth-child(2) {
+    right: 9%; }
+#charmander > div:nth-child(2):after {
+    left: 12.5%; }
+#charmander > div:nth-child(1):after {
+    right: 12.5%; }
+#charmander > div:nth-child(3) {
+    position: absolute;
+    top: 64.45%;
+    left: 11%;
+    width: 78%;
+    height: 24.22%;
+    background: #a26f8e;
+    padding: 11.33% 8.2% 0; }
+#charmander > div:nth-child(3):before, #charmander > div:nth-child(3):after {
+    width: 10.5%;
+    height: 32.26%;
+    background: white; }
+#charmander > div:nth-child(3):before {
+    left: 7%; }
+#charmander > div:nth-child(3):after {
+    right: 7%; }
+#charmander > div:nth-child(3):before, #charmander > div:nth-child(3):after {
+    position: absolute;
+    top: 0; }
+#charmander > div:nth-child(3) div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #cb98c0; }
+#charmander > div:nth-child(3) div:before, #charmander > div:nth-child(3) div:after {
+    width: 11.25%;
+    height: 48.48%;
+    background: white; }
+#charmander > div:nth-child(3) div:before {
+    left: 6.25%; }
+#charmander > div:nth-child(3) div:after {
+    right: 6.25%; }
+#charmander > div:nth-child(3) div:before, #charmander > div:nth-child(3) div:after {
+    position: absolute;
+    bottom: 0; }

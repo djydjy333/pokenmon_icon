@@ -1,0 +1,149 @@
+@charset "UTF-8";
+*, *:before, *:after {
+    box-sizing: border-box; }
+
+html, body {
+    min-height: 100%; }
+
+::selection {
+    background: none; }
+
+body {
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    overflow-x: hidden; }
+
+main {
+    display: none; }
+
+.pokemon {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.pokemon > div {
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: calc(100vw / 10);
+    height: calc(100vw / 10);
+    overflow: hidden;
+    background: #f1f1f1;
+}
+
+.pokemon > div:before, .pokemon > div:after, .pokemon > div div:before, .pokemon > div div:after {
+    content: "";
+    display: block; }
+
+#squirtle {
+    background: #84c5d6; }
+#squirtle:before, #squirtle:after {
+    width: 2.73%;
+    height: 3.91%;
+    background: #70a7b5; }
+#squirtle:before {
+    left: 44.53%; }
+#squirtle:after {
+    right: 44.53%; }
+#squirtle:before, #squirtle:after {
+    position: absolute;
+    top: 60.56%; }
+#squirtle > div:nth-child(1) {
+    position: absolute;
+    top: 23.44%;
+    width: 21.88%;
+    height: 30.47%;
+    background: white; }
+#squirtle > div:nth-child(1) div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #331e29; }
+#squirtle > div:nth-child(1) div:before {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 26.92%;
+    background: #91526d; }
+#squirtle > div:nth-child(1):before {
+    position: absolute;
+    top: 5.13%;
+    width: 35.71%;
+    height: 24.36%;
+    background: white;
+    z-index: 1; }
+#squirtle > div:nth-child(1):after {
+    position: absolute;
+    top: 5.13%;
+    width: 35.71%;
+    height: 79.49%;
+    background: black; }
+#squirtle > div:nth-child(2) {
+    position: absolute;
+    top: 23.44%;
+    width: 21.88%;
+    height: 30.47%;
+    background: white; }
+#squirtle > div:nth-child(2) div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #331e29; }
+#squirtle > div:nth-child(2) div:before {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 26.92%;
+    background: #91526d; }
+#squirtle > div:nth-child(2):before {
+    position: absolute;
+    top: 5.13%;
+    width: 35.71%;
+    height: 24.36%;
+    background: white;
+    z-index: 1; }
+#squirtle > div:nth-child(2):after {
+    position: absolute;
+    top: 5.13%;
+    width: 35.71%;
+    height: 79.49%;
+    background: black; }
+#squirtle > div:nth-child(1) {
+    left: 7.81%; }
+#squirtle > div:nth-child(2) {
+    right: 7.81%; }
+#squirtle > div:nth-child(1) {
+    padding-left: 5.47%; }
+#squirtle > div:nth-child(2) {
+    padding-right: 5.47%; }
+#squirtle > div:nth-child(1):before {
+    left: 44.64%; }
+#squirtle > div:nth-child(2):before {
+    right: 44.64%; }
+#squirtle > div:nth-child(1):after {
+    left: 44.64%; }
+#squirtle > div:nth-child(2):after {
+    right: 44.64%; }
+#squirtle > div:nth-child(3) {
+    position: absolute;
+    top: 64.45%;
+    left: 6.64%;
+    width: 86.72%;
+    height: 15.23%;
+    background: #994b78;
+    clip-path: polygon(44.14% 30.77%, 55.86% 30.77%, 63.96% 0, 100% 0, 100% 100%, 0 100%, 0 0, 36.04% 0);
+    padding: 7.42% 9% 0; }
+#squirtle > div:nth-child(3):before {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #d084ad; }
